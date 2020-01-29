@@ -1,0 +1,260 @@
+html, body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+    position: relative;
+    height: 100%;
+}
+
+#contact-body {
+    padding-bottom: 60px;
+    min-height: 100%;
+    padding: 10px;
+}
+
+#content {
+    min-height:100%;
+   position:relative;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.navbar {
+    color: #1c1c1c;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1c1c1c;
+}
+
+h1 {
+    font-family: 'Martel', serif;
+}
+
+.navbar ul {
+    padding: 25px;
+}
+
+.navbar li {
+    list-style: none;
+    font-family: 'Martel', serif;
+    float: left;
+    padding-right: 25px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar li a:hover {
+    text-decoration: none;
+    color: darkgoldenrod;
+    transition: 0.3s;
+}
+
+.header-logo{
+    width: 150px;
+    height: 100px;
+    padding: -10px;
+    float: left;
+}
+
+.header-logo-center{
+    width: 300px;;
+    height: 200px;
+    padding:50px;
+    align-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-title-info {
+    color: #1c1c1c;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.page {
+    background-color: white;
+}
+
+.faq-question {
+    padding-left: 400px;
+}
+
+.question-header {
+    color: #4f4f4f;
+    font-size: 18px;
+}
+
+.sub-question-header {
+    color: #4f4f4f;
+    font-size: 14px;
+}
+
+.q-section {
+    padding-bottom: 25px;
+}
+
+.container-construction {
+    padding: 25px;
+    vertical-align: middle;
+    position:fixed;
+}
+
+.dev {
+    color: white;
+    font-size: 30px;
+    left: 0;
+    line-height: 200px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+}
+
+.pictures {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info-section-header {
+    color: white;
+    font-size: 24px;
+}
+
+.info-section-subheader {
+    /*text-indent: 50px;*/
+    color: white;
+    font-size: 18px;
+    display: block;
+}
+
+.breadcrumb {
+    padding-left: 400px;
+    padding-top: 25px;
+    font-size: 12px;
+    font-family: 'Martel', serif;
+    font-weight: bolder;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    list-style: none;
+    color: #4f4f4f;
+}
+
+.breadcrumb a:hover {
+    text-decoration: none;
+    color: darkgoldenrod;
+    transition: 0.3s;
+}
+
+.breadcrumb span {
+    color: #9d9d9d;
+    user-select: none;
+    -moz-user-select: none;
+}
+
+#footer-wrapper {
+    position:absolute;
+    bottom: 0;
+    width:100%;
+    height: 150px;
+    width: 100%;
+}
+
+.footer {
+    text-align: center;
+    font-family: 'Martel Sans', sans-serif;
+    background-color: #1c1c1c;
+    padding: none;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.footer-title {
+    font-size: 20px;
+}
+
+.footer-subtitle {
+    font-size: 14px;
+}
+
+.footer a {
+    list-style: none;
+    color: white;
+}
+
+/* Next & previous buttons */
+.prev {
+    cursor: pointer;
+    position: absolute;
+    top: 43%;
+    width: auto;
+    padding: 16px;
+    padding-left: 595px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 43%;
+    width: auto;
+    padding: 16px;
+    padding-right: 595px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  color: rgba(0,0,0,0.8);
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
